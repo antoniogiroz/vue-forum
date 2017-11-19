@@ -31,7 +31,7 @@
   export default {
     props: {
       id: {
-        require: true,
+        required: true,
         type: String
       }
     },
