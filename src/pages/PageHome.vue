@@ -1,7 +1,7 @@
 <template>
   <div class="col-full">
     <h1>Welcome to the Forum</h1>
-    <thread-list :threads="threads"></thread-list>
+    <ThreadList :threads="threads" />
   </div>
 </template>
 

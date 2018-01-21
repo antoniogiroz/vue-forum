@@ -1,6 +1,7 @@
 <template>
-  <div class="col-full centered"
-       :class="$style.centered"
+  <div
+    class="col-full centered"
+    :class="$style.centered"
   >
     <h1 :class="$style.headingLarge">Not Found</h1>
     <p :class="$style.textLarge">

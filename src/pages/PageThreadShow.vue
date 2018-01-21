@@ -2,14 +2,14 @@
   <div class="col-large push-top">
     <h1>{{thread.title}}</h1>
     <p>
-      By <a href="#" class="link-unstyled">Robin</a>, <app-date :timestamp="thread.publishedAt"></app-date>
+      By <a href="#" class="link-unstyled">Robin</a>, <AppDate :timestamp="thread.publishedAt" />
       <span style="float: right; margin-top: 2px" class="hide-mobile text-faded text-small">3 replies by 3 contributors</span>
     </p>
-    <post-list :posts="posts"></post-list>
-    <post-editor
+    <PostList :posts="posts"/>
+    <PostEditor
       :threadId="id"
       @save="addPost"
-    ></post-editor>
+    />
   </div>
 </template>
 
