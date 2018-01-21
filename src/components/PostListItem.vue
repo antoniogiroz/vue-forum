@@ -20,14 +20,9 @@
 
 <script>
   import sourceData from '@/data'
-  import AppDate from './AppDate'
 
   export default {
     name: 'post-list-item',
-
-    components: {
-      AppDate
-    },
 
     props: {
       post: {
